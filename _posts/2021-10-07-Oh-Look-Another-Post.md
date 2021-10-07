@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Oh Look, Another Post "
+title: "Oh Look, Another Post! "
 date: 2021-10-07
 ---
 This post has a picture of the Eifel Tower or as the French all it, Le Eifel Tower.
