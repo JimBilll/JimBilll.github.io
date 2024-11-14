@@ -49,38 +49,42 @@ h1 {
     padding-left: 20px;
 }
 
-div.mainbody {
-    /* padding-left: 50px; */
-    width: 700px;
+.mainbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 1000px;
     margin: auto;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 
-div.mainbody img {
-    width: 250px;
-    padding-left:50px;
-    padding-right: 10px;
-    display: inline-block;
-}
-
-div.abouttext {
-    display: inline-block;
+.main-div {
+    max-width: 700px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
-div.mainbody h3{
-    font-size: 40px;
-    margin-bottom: 0%;
+.mainbody img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.abouttext {
     display: inline-block;
 }
 
-div.mainbody p {
+.mainbody h3 {
+    font-size: 40px;
+}
+
+.mainbody p {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    overflow: hidden;
-    position: relative;
-    width: 350px;
+    text-align: justify;
+    max-width: 700px;
 }
-
 
 
 
