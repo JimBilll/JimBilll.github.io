@@ -49,6 +49,13 @@ h1 {
     padding-left: 20px;
 }
 
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-left: 20px;
+    line-height: 0px;
+}
+
 .mainbody {
     display: flex;
     flex-direction: column;
@@ -91,7 +98,9 @@ h1 {
 
 
 div.projbody {
-    padding-left: 20px;
+    display:flex;
+    width:100%;
+    justify-content: center;
 }
 
 div.projbody p {
@@ -104,11 +113,13 @@ div.projentry {
     background-color: dodgerblue;
     float: left;
     margin-bottom:20px;
+    border-radius: 5px;
 }
 
 div.projentry img {
     width: 200px;
     padding: 10px;
+    padding-right: 20px;
     float: left;
 }
 
@@ -123,11 +134,18 @@ div.projtext h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
     color: white;
+    line-height: 10px;
 }
 
-div.projtext h3 a {
+div.projtext a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
     text-decoration: none;
-    color: white;
+    color: black;
+    background-color: white;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 div.projtext p {
@@ -190,4 +208,19 @@ span.username {
 
 #discid {
     color: rgb(99, 90, 90);
+}
+
+
+
+
+.diss-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.diss-div embed {
+    width: 1000px;
+    height: 1000px;
 }
