@@ -101,6 +101,10 @@ div.projbody {
     display:flex;
     width:100%;
     justify-content: center;
+    .projyear {
+        color: white;
+        width: 985px;
+    }
 }
 
 div.projbody p {
